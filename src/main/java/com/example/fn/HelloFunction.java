@@ -16,7 +16,7 @@ public class HelloFunction {
 
         System.out.println("Value of name is " + name);
         System.out.println("Exiting Java HelloFunction::handleRequest");
-        return "Hello, " + name + "!";
+        return "Hello pushed to repo, " + name + "!";
     }
 
 }
