@@ -6,7 +6,7 @@ from fdk import response
 
 
 def handler(ctx, data: io.BytesIO=None):
-    name = "hello All hands!"
+    name = "hello All hands new!"
     try:
         body = json.loads(data.getvalue())
         name = body.get("name")
